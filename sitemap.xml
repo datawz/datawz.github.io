@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://datawz.github.io/2022/12/09/csharp/csharp%E5%9F%BA%E7%A1%80/</loc>
+    
+    <lastmod>2022-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://datawz.github.io/finance/index.html</loc>
+    
+    <lastmod>2022-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://datawz.github.io/categories/index.html</loc>
     
     <lastmod>2022-12-09</lastmod>
@@ -47,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://datawz.github.io/books/index.html</loc>
+    <loc>http://datawz.github.io/links/index.html</loc>
     
     <lastmod>2022-12-08</lastmod>
     
@@ -56,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://datawz.github.io/links/index.html</loc>
+    <loc>http://datawz.github.io/books/index.html</loc>
     
     <lastmod>2022-12-08</lastmod>
     
@@ -93,6 +111,13 @@
   
   <url>
     <loc>http://datawz.github.io/tags/wpf/</loc>
+    <lastmod>2022-12-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://datawz.github.io/tags/c/</loc>
     <lastmod>2022-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
