@@ -1,8 +1,8 @@
+http://datawz.github.io/2022/12/09/other/setupblog/
 http://datawz.github.io/2022/12/09/csharp/csharp%E5%9F%BA%E7%A1%80/
 http://datawz.github.io/finance/index.html
 http://datawz.github.io/categories/index.html
 http://datawz.github.io/2022/12/09/bigdata/wpf%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/
-http://datawz.github.io/2022/12/09/other/setupblog/
 http://datawz.github.io/tags/index.html
 http://datawz.github.io/repository/index.html
 http://datawz.github.io/books/index.html
