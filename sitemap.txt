@@ -1,8 +1,8 @@
 http://datawz.github.io/tags/index.html
-http://datawz.github.io/repository/index.html
-http://datawz.github.io/books/index.html
 http://datawz.github.io/categories/index.html
+http://datawz.github.io/repository/index.html
 http://datawz.github.io/links/index.html
+http://datawz.github.io/books/index.html
 http://datawz.github.io/about/index.html
 http://datawz.github.io/404.html
 http://datawz.github.io/2022/12/09/hello-world/

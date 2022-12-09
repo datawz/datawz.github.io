@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>http://datawz.github.io/categories/index.html</loc>
+    
+    <lastmod>2022-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://datawz.github.io/repository/index.html</loc>
     
     <lastmod>2022-12-08</lastmod>
@@ -20,25 +29,16 @@
   </url>
   
   <url>
-    <loc>http://datawz.github.io/books/index.html</loc>
-    
-    <lastmod>2022-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://datawz.github.io/categories/index.html</loc>
-    
-    <lastmod>2022-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://datawz.github.io/links/index.html</loc>
+    
+    <lastmod>2022-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://datawz.github.io/books/index.html</loc>
     
     <lastmod>2022-12-08</lastmod>
     
