@@ -317,15 +317,42 @@
         <ul>
           <li><a href="/categories">All</a></li>
           
-          <li><a href="/categories/WPF/">WPF</a></li>
-          
           <li><a href="/categories/杂项/">杂项</a></li>
+          
+          <li><a href="/categories/WPF/">WPF</a></li>
           
         </ul>
       </nav>
     </header>
     <!-- /header -->
     <div class="article-body">
+      
+      <div class="panel panel-default b-no">
+        <div class="panel-heading" role="tab">
+          <h3 class="panel-title">
+            <a data-toggle="collapse" href="#collapse杂项" aria-expanded="true">
+              <i class="icon icon-folder text-active"></i><i class="icon icon-folder-open text"></i>
+              杂项
+            </a>
+            <small class="text-muted">(Total 1 articles)</small>
+          </h3>
+        </div>
+        <div id="collapse杂项" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading杂项">
+          <div class="panel-body">
+            <div class="collection">
+              
+                
+<a href="/2022/12/09/other/setupblog/" class="collection-item"  target="_blank"   itemprop="url">
+  <time datetime="2022-12-09T09:19:38.179Z" itemprop="datePublished">2022-12-09</time>
+  <span>&nbsp;&nbsp;&nbsp;</span> 利用github和hexo搭建博客
+</a>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
       
       <div class="panel panel-default b-no">
         <div class="panel-heading" role="tab">
@@ -353,33 +380,6 @@
 <a href="/2022/12/09/csharp/csharp%E5%9F%BA%E7%A1%80/" class="collection-item"  target="_blank"   itemprop="url">
   <time datetime="2022-12-09T14:55:50.094Z" itemprop="datePublished">2022-12-09</time>
   <span>&nbsp;&nbsp;&nbsp;</span> C#基础
-</a>
-
-
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="panel panel-default b-no">
-        <div class="panel-heading" role="tab">
-          <h3 class="panel-title">
-            <a data-toggle="collapse" href="#collapse杂项" aria-expanded="true">
-              <i class="icon icon-folder text-active"></i><i class="icon icon-folder-open text"></i>
-              杂项
-            </a>
-            <small class="text-muted">(Total 1 articles)</small>
-          </h3>
-        </div>
-        <div id="collapse杂项" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading杂项">
-          <div class="panel-body">
-            <div class="collection">
-              
-                
-<a href="/2022/12/09/other/setupblog/" class="collection-item"  target="_blank"   itemprop="url">
-  <time datetime="2022-12-09T09:19:38.179Z" itemprop="datePublished">2022-12-09</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> 利用github和hexo搭建博客
 </a>
 
 
@@ -455,7 +455,7 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
   var gitalk = new Gitalk({
     clientID: '17e8f36493d2d4b1110c',
     clientSecret: '16cfed181385ffdad84c8cc55e47c6909c2087d7',
-    repo: 'datawz.github.io',
+    repo: 'blogcomment',
     owner: 'datawz',
     admin: ['datawz'],
     id: md5(location.pathname),
