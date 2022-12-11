@@ -40,9 +40,9 @@
 
   
   
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitment@0.0.3/style/default.min.css">
   
   
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.css">
   
 <meta name="generator" content="Hexo 6.3.0"></head>
 
@@ -317,49 +317,17 @@
         <ul>
           <li><a href="/tags">All</a></li>
           
-          <li><a href="/tags/blog/">blog</a></li>
-          
           <li><a href="/tags/wpf/">wpf</a></li>
           
           <li><a href="/tags/c/">c#</a></li>
+          
+          <li><a href="/tags/blog/">blog</a></li>
           
         </ul>
       </nav>
     </header>
     <!-- /header -->
     <div class="article-body">
-      
-      <h3 class="panel-title mb-1x">
-        <a href="/tags/blog/" title="#blog"># blog</a>
-        <small class="text-muted">(Total 1 articles)</small>
-      </h3>
-      <div class="row">
-        
-        <div class="col-md-6">
-          
-<article class="panel panel-default hover-shadow hover-grow" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="panel-body">
-     <div class="article-meta">
-       <time datetime="2022-12-09T09:19:38.179Z" itemprop="datePublished">2022-12-09</time>
-     </div>
-     <h3 class="article-title" itemprop="name">
-       <a class="article-link" href="/2022/12/09/other/setupblog/">利用github和hexo搭建博客</a>
-     </h3>
-   </div>
-   
-   <div class="panel-footer">
-     
-      <a href="/tags/blog/" class="label label-default mb">blog</a>
-     
-     
-   </div>
-   
-</article>
-
-
-        </div>
-        
-      </div>
       
       <h3 class="panel-title mb-1x">
         <a href="/tags/wpf/" title="#wpf"># wpf</a>
@@ -414,6 +382,38 @@
    <div class="panel-footer">
      
       <a href="/tags/c/" class="label label-default mb">c#</a>
+     
+     
+   </div>
+   
+</article>
+
+
+        </div>
+        
+      </div>
+      
+      <h3 class="panel-title mb-1x">
+        <a href="/tags/blog/" title="#blog"># blog</a>
+        <small class="text-muted">(Total 1 articles)</small>
+      </h3>
+      <div class="row">
+        
+        <div class="col-md-6">
+          
+<article class="panel panel-default hover-shadow hover-grow" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="panel-body">
+     <div class="article-meta">
+       <time datetime="2022-12-09T09:19:38.179Z" itemprop="datePublished">2022-12-09</time>
+     </div>
+     <h3 class="article-title" itemprop="name">
+       <a class="article-link" href="/2022/12/09/other/setupblog/">利用github和hexo搭建博客</a>
+     </h3>
+   </div>
+   
+   <div class="panel-footer">
+     
+      <a href="/tags/blog/" class="label label-default mb">blog</a>
      
      
    </div>
@@ -485,24 +485,24 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
    
     
-  <!-- <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css"> -->
-  <script src="//cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
-  <script type="text/javascript">
-  var gitalk = new Gitalk({
-    clientID: '17e8f36493d2d4b1110c',
-    clientSecret: '16cfed181385ffdad84c8cc55e47c6909c2087d7',
-    repo: 'blogcomment',
-    owner: 'datawz',
-    admin: ['datawz'],
-    id: md5(location.pathname),
-    distractionFreeMode: true,
-    language: 'zh-CN',
-    enableHotKey: 'false'
-  })
-  gitalk.render('comments')
-  </script>
-      
+<script src="//cdn.jsdelivr.net/npm/gitment@0.0.3/dist/gitment.browser.min.js"></script>
+<script>
+var gitment = new Gitment({
+  // id默认为当前页面url，如果url后带参数或锚点，gitment要重新初始化
+  // https://github.com/imsun/gitment/issues/55
+  // 解决方案：id:window.location.pathname,或者将id设置为当前页面标题
+  id: 'tags', 
+  owner: 'datawz', // 可以是你的GitHub用户名，也可以是github id
+  repo: 'datawz.github.io',
+  oauth: {
+    client_id: '17e8f36493d2d4b1110c',
+    client_secret: '16cfed181385ffdad84c8cc55e47c6909c2087d7',
+  }
+})
+gitment.render('comments')
+</script>
+
+
 
 
 
